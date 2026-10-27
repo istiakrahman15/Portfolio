@@ -2223,8 +2223,13 @@ html.lenis body {
   font-weight: 600;
   line-height: 1.35;
 }
-.home-grid .build-widget {
+.home-grid .map-widget {
   grid-column: 1 / 3;
+  grid-row: 2 / 4;
+  min-height: 460px;
+}
+.home-grid .build-widget {
+  grid-column: 3 / 5;
 }
 .home-grid .interests-widget {
   grid-column: 3 / 5;
@@ -2314,6 +2319,10 @@ html.lenis body {
   font-size: 0.7rem;
 }
 @media (max-width: 900px) {
+  .home-grid .map-widget {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
   .home-grid .build-widget,
   .home-grid .interests-widget,
   .home-grid .reminders-widget {

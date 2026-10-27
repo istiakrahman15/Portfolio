@@ -3,6 +3,7 @@ import { animate } from 'motion/react'
 import { sm } from '../sm.jsx'
 import { Icon } from './Icon.jsx'
 import { LargeTitle } from './Type.jsx'
+import { MapWidget } from './MapWidget.jsx'
 import { builds, goals, interests, profile } from '../data.js'
 import { playThrottled } from '../sfx.js'
 import { useLanded } from '../useLanded.js'
@@ -150,6 +151,7 @@ export function HomeScreen() {
         <LargeTitle>About</LargeTitle>
         <div className="home-grid">
           <ProfileWidget />
+          <MapWidget />
           <BuildWidget />
           <InterestsWidget />
           <GoalsWidget />

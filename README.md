@@ -34,6 +34,10 @@ The canonical URL, Open Graph tags, `robots.txt` and `sitemap.xml` all assume th
 
 `npm run dev` and `npm run preview` serve the same `/api/stats` API from `server/vite-stats.js`, stored in `data/stats.json` (git-ignored).
 
+## Map
+
+The About page map shows Bangladesh at country level only (no city or street marker). To rebuild it: `npm i --no-save world-atlas topojson-client && node scripts/build-map.mjs`.
+
 ## Icons
 
 Icons are bundled in `src/icons/`. To add one, put its name in `scripts/fetch-icons.mjs` and run `node scripts/fetch-icons.mjs` (needs internet).

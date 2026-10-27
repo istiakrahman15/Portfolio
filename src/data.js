@@ -6,6 +6,7 @@ export const links = {
   website: 'https://istiakrahman.pro.bd/',
   xreg: 'https://xregengine.click',
   repos: 'https://github.com/istiakrahman15?tab=repositories',
+  maps: 'https://www.google.com/maps/place/Bangladesh',
 }
 
 export const profile = {
