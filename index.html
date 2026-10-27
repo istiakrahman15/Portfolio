@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Istiak Rahman — Web Developer &amp; App Developer</title>
+    <meta
+      name="description"
+      content="Explore Istiak Rahman's portfolio, projects, web development, applications, and automation work."
+    />
+    <meta name="author" content="Istiak Rahman" />
+    <link rel="canonical" href="https://istiakrahman.pro.bd/" />
+    <meta name="theme-color" content="#03070c" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- when added to the home screen the site opens full screen, with no browser bars -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Istiak Rahman" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <script>
+      // Every visit and refresh starts at the lock-screen hero, never at a restored scroll position
+      try {
+        history.scrollRestoration = 'manual'
+        if (location.hash) history.replaceState(null, '', location.pathname + location.search)
+        scrollTo(0, 0)
+        addEventListener('pageshow', function (e) {
+          if (e.persisted) scrollTo(0, 0)
+        })
+      } catch (e) {}
+    </script>
+    <script>
+      // dark is the default look; only a choice the visitor saved with the switch changes it
+      try {
+        var t = localStorage.getItem('theme')
+        if (t !== 'light' && t !== 'dark') t = 'dark'
+        document.documentElement.dataset.theme = t
+      } catch (e) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Istiak Rahman" />
+    <meta property="og:url" content="https://istiakrahman.pro.bd/" />
+    <meta property="og:title" content="Istiak Rahman — Web Developer &amp; App Developer" />
+    <meta
+      property="og:description"
+      content="Explore Istiak Rahman's portfolio, projects, web development, applications, and automation work."
+    />
+    <meta property="og:image" content="https://istiakrahman.pro.bd/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Istiak Rahman, web developer, app developer and automation enthusiast" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Istiak Rahman — Web Developer &amp; App Developer" />
+    <meta name="twitter:image" content="https://istiakrahman.pro.bd/og-image.jpg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Istiak Rahman",
+        "url": "https://istiakrahman.pro.bd/",
+        "image": "https://istiakrahman.pro.bd/brand/istiak-rahman-avatar.webp",
+        "jobTitle": "Web Developer",
+        "description": "Web developer, app developer and automation enthusiast.",
+        "sameAs": [
+          "https://github.com/istiakrahman15",
+          "https://t.me/istiakrahman",
+          "https://x.com/Istiakrahman15",
+          "https://instagram.com/Istiakrahman_15"
+        ]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>This site needs JavaScript. Find Istiak Rahman on GitHub: https://github.com/istiakrahman15</noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

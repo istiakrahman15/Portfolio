@@ -1,0 +1,17 @@
+{
+  "name": "Istiak Rahman",
+  "short_name": "Istiak",
+  "description": "Web developer, app developer and automation enthusiast.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "portrait",
+  "background_color": "#03070c",
+  "theme_color": "#03070c",
+  "icons": [
+    { "src": "/brand/logo.webp", "sizes": "512x512", "type": "image/webp", "purpose": "any" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
